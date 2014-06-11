@@ -1,0 +1,9 @@
+QWidget {
+	background-color: rgb(221, 221, 221);
+	font: 75 11pt "FreeSans";
+	color: rgb(128, 128, 128);
+}
+
+QLabel {
+	background-color: rgb(242, 242, 242);
+}

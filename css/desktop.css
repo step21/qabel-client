@@ -1,0 +1,16 @@
+QPushButton {
+        border: 0px;
+	outline: 0;
+}
+
+QFrame#frTopBox {
+	background-color: rgb(255, 105, 15);
+}
+
+#frTopBox QPushButton{
+    color: rgb(243, 243, 243);
+}
+
+QFrame#frContentTopBox {
+        background-color: rgb(88, 84, 88);
+}

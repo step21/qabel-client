@@ -1,0 +1,5 @@
+QWidget {
+	font: 75 italic 12pt "FreeSans";
+	background-color: rgb(221, 221, 221);
+	color: rgb(103, 103, 103);
+}
