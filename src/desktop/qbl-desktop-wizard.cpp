@@ -32,7 +32,7 @@
 #include "wizard-pages/qbl-desktop-wizard-page-ffsyncserver.h"
 #include "wizard-pages/qbl-desktop-wizard-page-lastpage.h"
 #include <QFormLayout>
-#include "../../lib/src/ffsync/ffsync.h"
+#include "ffsync/qbl-ffsync.h"
 
 QblDesktopWizard::QblDesktopWizard(QWidget *widget, QWidget *parent) :
     QWizard(parent), widget(widget)
