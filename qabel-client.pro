@@ -145,7 +145,7 @@ RESOURCES += \
     qabel-client.qrc
 
 unix: CONFIG += link_pkgconfig
-unix: PKGCONFIG += json-c uuid
+unix: PKGCONFIG += json-c
 
 mac:CONFIG+=c++11
 mac:QT_CONFIG -= no-pkg-config
