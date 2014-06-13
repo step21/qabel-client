@@ -149,5 +149,3 @@ unix: PKGCONFIG += json-c
 
 mac:CONFIG+=c++11
 mac:QT_CONFIG -= no-pkg-config
-mac:PKGCONFIG -= json-c
-mac:PKGCONFIG += json
