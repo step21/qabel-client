@@ -4,6 +4,9 @@
 #
 #-------------------------------------------------
 
+QABEL_LIB_SRC = $$PWD/../qabel-lib
+QABEL_LIB_BUILD = $$PWD/../qabel-lib/build
+
 QT       += core gui
 QT       += multimedia
 
@@ -127,19 +130,19 @@ MOBILITY =
 QMAKE_CXXFLAGS += -std=c++11
 
 
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../lib/src/.libs/release/ -lqabel
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../lib/src/.libs/debug/ -lqabel
-else:unix: LIBS += -L$$PWD/../lib/build/src/ -lqabel
+win32:CONFIG(release, debug|release): LIBS += -L$$QABEL_LIB_SRC/.libs/release/ -lqabel
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$QABEL_LIB_SRC/src/.libs/debug/ -lqabel
+else:unix: LIBS += -L$$QABEL_LIB_BUILD/src/ -lqabel
 
 INCLUDEPATH += $$PWD/include \
-    $$PWD/../lib/include \
-    $$PWD/../lib/src \
-    $$PWD/../lib/src/config \
-    $$PWD/../lib/src/messages \
-    $$PWD/../lib/src/chat \
-    $$PWD/../lib/src/net \
-    $$PWD/../lib/src/fs
-DEPENDPATH += $$PWD/../lib/build/src/
+    $$QABEL_LIB_SRC/include \
+    $$QABEL_LIB_SRC/src \
+    $$QABEL_LIB_SRC/src/config \
+    $$QABEL_LIB_SRC/src/messages \
+    $$QABEL_LIB_SRC/src/chat \
+    $$QABEL_LIB_SRC/src/net \
+    $$QABEL_LIB_SRC/src/fs
+DEPENDPATH += $$QABEL_LIB_BUILD/src/
 
 RESOURCES += \
     qabel-client.qrc
