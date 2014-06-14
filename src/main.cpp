@@ -55,6 +55,12 @@ int main(int argc, char *argv[])
     QWidget *widget = NULL;
     
     Qbl *qbl = Qbl::getInstance();
+    /* the lib makes no guarantee to return an instance */
+    if (!qbl) {
+        QMessageBox::critical(0, QObject::tr("Qabel-Client"),
+                QObject::tr("Could not initialize the Qabel library"));
+        return (EXIT_FAILURE);
+    }
     
     if(qbl->getConfig()->isDefault()) {
         widget = new QblDesktopWizard(widget);
