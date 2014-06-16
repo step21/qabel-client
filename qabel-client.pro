@@ -8,9 +8,16 @@ QABEL_LIB_SRC = $$PWD/../qabel-lib
 QABEL_LIB_BUILD = $$PWD/../qabel-lib/build
 
 QT       += core gui
-QT       += multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+CONFIG(branding) {
+    message(Building with official Qabel branding.)
+    DEFINES += QABEL_BRANDING
+    QT += multimedia
+} else {
+    message(Official Qabel branding is not available.)
+}
 
 TARGET = qabel-client
 TEMPLATE = app

@@ -24,8 +24,10 @@
 #include <QMessageBox>
 #include <QSystemTrayIcon>
 #include <stdlib.h>
-//include <QtMultimedia>
-//#include <QSoundEffect>
+#ifdef QABEL_BRANDING
+    #include <QtMultimedia>
+    #include <QSoundEffect>
+#endif
 
 #include "qbl-client.h"
 #include "qbl-config-file.h" // only for getting path to sound logo
@@ -34,14 +36,16 @@
 
 int main(int argc, char *argv[])
 {
-//    QSoundEffect soundLogo;
-//    std::string soundFile;
-//    soundFile.append(QblConfigFile::getCacheChatDir().substr(0, QblConfigFile::getCacheChatDir().size() - 4).append("QABEL_Sound_Logo_Final_44kHz_16Bit.wav"));
+#ifdef QABEL_BRANDING
+    QSoundEffect soundLogo;
+    std::string soundFile;
+    soundFile.append(QblConfigFile::getCacheChatDir().substr(0, QblConfigFile::getCacheChatDir().size() - 4).append("QABEL_Sound_Logo_Final_44kHz_16Bit.wav"));
     
-//    soundLogo.setSource(QUrl::fromLocalFile(QString::fromStdString(soundFile)));
-//    soundLogo.setLoopCount(1);
-//    soundLogo.setVolume(1.0f);
-//    soundLogo.play();
+    soundLogo.setSource(QUrl::fromLocalFile(QString::fromStdString(soundFile)));
+    soundLogo.setLoopCount(1);
+    soundLogo.setVolume(1.0f);
+    soundLogo.play();
+#endif
     
     QApplication application(argc, argv);
 
