@@ -122,7 +122,7 @@ void QblDesktopAddressIdentity::setHeight()
     std::list<QblDesktopListAddressRow *>::iterator iterator;
 
     height = this->identity->height();
-    if (this->identity->getCollapse() == false) {
+    if (this->items.size() && (this->identity->getCollapse() == false)) {
         iterator = this->items.begin();
         height += this->items.size() * (*iterator)->maximumHeight();
     }
