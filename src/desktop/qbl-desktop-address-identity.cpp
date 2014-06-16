@@ -21,7 +21,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include "qbl-json-main-config-contact-array.h"
+#include "config/qbl-json-main-config-contact-array.h"
 
 #include "qbl-client.h"
 #include "qbl-desktop-address-identity.h"

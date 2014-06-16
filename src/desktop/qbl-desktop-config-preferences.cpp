@@ -1,4 +1,4 @@
-#include "qbl-config-file.h"
+#include "config/qbl-config-file.h"
 #include "qbl.h"
 
 #include "qbl-desktop-config-preferences.h"

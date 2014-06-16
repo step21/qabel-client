@@ -4,8 +4,8 @@
 #include <QFrame>
 #include <QVBoxLayout>
 
-#include "qbl-json-main-config-identity.h"
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include "qbl-desktop-list-identity.h"
 #include "qbl-desktop-list-settings-row.h"

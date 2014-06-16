@@ -141,12 +141,7 @@ else:unix: LIBS += -L$$QABEL_LIB_BUILD/src/ -lqabel
 
 INCLUDEPATH += $$PWD/include \
     $$QABEL_LIB_SRC/include \
-    $$QABEL_LIB_SRC/src \
-    $$QABEL_LIB_SRC/src/config \
-    $$QABEL_LIB_SRC/src/messages \
-    $$QABEL_LIB_SRC/src/chat \
-    $$QABEL_LIB_SRC/src/net \
-    $$QABEL_LIB_SRC/src/fs
+    $$QABEL_LIB_SRC/src
 DEPENDPATH += $$QABEL_LIB_BUILD/src/
 
 RESOURCES += \

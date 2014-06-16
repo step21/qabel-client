@@ -28,7 +28,7 @@
 #include <QResizeEvent>
 
 #include "qbl-desktop-list-item.h"
-#include "qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-identity.h"
 
 /**
  * With QtCreator generated UI

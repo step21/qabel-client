@@ -30,7 +30,7 @@
 #endif
 
 #include "qbl-client.h"
-#include "qbl-config-file.h" // only for getting path to sound logo
+#include "config/qbl-config-file.h" // only for getting path to sound logo
 #include "qbl-desktop-client.h"
 #include "desktop/qbl-desktop-wizard.h"
 

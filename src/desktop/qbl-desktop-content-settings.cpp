@@ -27,8 +27,8 @@
 #include "qbl-desktop-settings-identity.h"
 
 #include "qbl.h"
-#include "qbl-json-main-config-identity.h"
-#include "qbl-json-main-config-identity-array.h"
+#include "config/qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-identity-array.h"
 
 #include "qbl-desktop-settings-constants.h"
 #include "qbl-desktop-content.h"

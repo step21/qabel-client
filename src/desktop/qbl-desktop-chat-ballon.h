@@ -24,7 +24,7 @@
 #define __QBL_DESKTOP_CHAT_BALLON_H__
 
 #include <QWidget>
-#include "qbl-json-chat-message-complete.h"
+#include "chat/qbl-json-chat-message-complete.h"
 
 namespace Ui {
 class QblDesktopChatBallon;

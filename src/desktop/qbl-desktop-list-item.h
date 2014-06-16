@@ -28,7 +28,7 @@
 #include <QWidget>
 #include <QMouseEvent>
 
-#include "qbl-json-object.h"
+#include "config/qbl-json-object.h"
 
 /**
  * Class QblDesktopListItem: Default desktop list element

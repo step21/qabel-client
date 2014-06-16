@@ -2,7 +2,7 @@
 #define QBL_DESKTOP_CONFIG_DROPSERVERS_H
 
 #include <QWidget>
-#include "qbl-json-main-config-dropserver-array.h"
+#include "config/qbl-json-main-config-dropserver-array.h"
 
 namespace Ui {
 class QblDesktopConfigDropServers;

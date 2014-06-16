@@ -23,8 +23,8 @@
 #ifndef QBLDESKTOPADDRESSBOOKCONTENT_H
 #define QBLDESKTOPADDRESSBOOKCONTENT_H
 
-#include "qbl-json-main-config-identity.h"
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include <QWidget>
 #include <QResizeEvent>

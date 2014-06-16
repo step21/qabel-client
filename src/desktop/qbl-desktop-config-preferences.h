@@ -3,7 +3,7 @@
 
 
 
-#include "qbl-json-main-config-preferences.h"
+#include "config/qbl-json-main-config-preferences.h"
 
 #include <QWidget>
 

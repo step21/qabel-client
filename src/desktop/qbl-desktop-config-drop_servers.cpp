@@ -1,5 +1,5 @@
 #include "qbl-desktop-config-drop_servers.h"
-#include "qbl-config-file.h"
+#include "config/qbl-config-file.h"
 #include "qbl.h"
 
 #include "ui_qbl-desktop-config-drop_servers.h"

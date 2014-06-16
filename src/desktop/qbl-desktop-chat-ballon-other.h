@@ -25,7 +25,7 @@
 
 #include <QWidget>
 
-#include "qbl-json-chat-message-complete.h"
+#include "chat/qbl-json-chat-message-complete.h"
 #include "qbl-desktop-chat-ballon.h"
 
 namespace Ui {
