@@ -15,8 +15,6 @@ CONFIG(branding) {
     message(Building with official Qabel branding.)
     DEFINES += QABEL_BRANDING
     QT += multimedia
-} else {
-    message(Official Qabel branding is not available.)
 }
 
 TARGET = qabel-client
