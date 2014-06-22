@@ -21,7 +21,7 @@ class QblDesktopListSettingsRow : public QWidget
     Q_OBJECT
 
 public:
-    explicit QblDesktopListSettingsRow(string category_name,
+    explicit QblDesktopListSettingsRow(std::string category_name,
             int id, int category, QWidget *parent = 0);
 
     ~QblDesktopListSettingsRow();

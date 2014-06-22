@@ -27,7 +27,7 @@ protected:
 private:
     int settingsId;
     QblJsonMainConfigIdentity *obj;
-    string categoryName ="";
+    std::string categoryName ="";
     QFrame *frame;
     QVBoxLayout *layout;
     QblDesktopListIdentity *identity;
