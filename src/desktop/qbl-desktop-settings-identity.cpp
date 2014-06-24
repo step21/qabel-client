@@ -1,4 +1,4 @@
-#include "qbl-json-main-config-contact-array.h"
+#include "config/qbl-json-main-config-contact-array.h"
 
 #include "qbl-client.h"
 #include "qbl-desktop-settings-identity.h"

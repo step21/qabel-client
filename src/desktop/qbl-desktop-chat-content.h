@@ -25,9 +25,9 @@
 
 #include "iqbl-chat-send.h"
 
-#include "qbl-json-object.h"
-#include "qbl-json-main-config-identity.h"
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-object.h"
+#include "config/qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include <qbl-client.h>
 

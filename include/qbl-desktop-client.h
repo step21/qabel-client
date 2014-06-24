@@ -29,16 +29,16 @@
 
 #include <iqbl.h>
 #include <qbl.h>
-#include <qbl-message.h>
+#include <messages/qbl-message.h>
 
 #include "qbl-client.h"
 #include "qbl-css.h"
 #include "qbl-content.h"
-#include "src/desktop/qbl-desktop-addressbook.h"
-#include "src/desktop/qbl-desktop-chat.h"
-#include "src/desktop/qbl-desktop-settings.h"
-#include "src/desktop/qbl-desktop-file.h"
-#include "src/desktop/qbl-desktop-topinfo-list.h"
+#include "../src/desktop/qbl-desktop-addressbook.h"
+#include "../src/desktop/qbl-desktop-chat.h"
+#include "../src/desktop/qbl-desktop-settings.h"
+#include "../src/desktop/qbl-desktop-file.h"
+#include "../src/desktop/qbl-desktop-topinfo-list.h"
 
 
 /**

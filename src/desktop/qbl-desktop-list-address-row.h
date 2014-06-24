@@ -25,7 +25,7 @@
 
 #include <QWidget>
 
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include "qbl-desktop-list-item.h"
 #include "qbl-client.h"

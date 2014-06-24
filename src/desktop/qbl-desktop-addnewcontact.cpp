@@ -1,6 +1,6 @@
 #include "qbl-desktop-addnewcontact.h"
 #include "ui_qbl-desktop-addnewcontact.h"
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-contact.h"
 
 QblDesktopAddNewContact::QblDesktopAddNewContact(std::list<QblDesktopAddressIdentity *> identityList, QWidget *parent) :
     QDialog(parent),

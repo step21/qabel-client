@@ -23,10 +23,10 @@
 #include <QFileDialog>
 #include <QScrollBar>
 
-#include "qbl-config-file.h"
-#include "qbl-json-chat-message.h"
-#include "qbl-chat-message-send.h"
-#include "qbl-chat-history.h"
+#include "config/qbl-config-file.h"
+#include "chat/qbl-json-chat-message.h"
+#include "chat/qbl-chat-message-send.h"
+#include "chat/qbl-chat-history.h"
 
 
 #include "qbl-desktop-chat-content.h"

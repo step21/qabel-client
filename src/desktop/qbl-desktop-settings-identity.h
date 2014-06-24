@@ -4,8 +4,8 @@
 #include <QFrame>
 #include <QVBoxLayout>
 
-#include "qbl-json-main-config-identity.h"
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-identity.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include "qbl-desktop-list-identity.h"
 #include "qbl-desktop-list-settings-row.h"
@@ -27,7 +27,7 @@ protected:
 private:
     int settingsId;
     QblJsonMainConfigIdentity *obj;
-    string categoryName ="";
+    std::string categoryName ="";
     QFrame *frame;
     QVBoxLayout *layout;
     QblDesktopListIdentity *identity;

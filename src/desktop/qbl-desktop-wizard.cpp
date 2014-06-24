@@ -22,7 +22,7 @@
 
 #include "qbl-desktop-wizard.h"
 #include "qbl-desktop-client.h"
-#include "qbl-config-file.h"
+#include "config/qbl-config-file.h"
 #include "wizard-pages/qbl-desktop-wizard-page-intro.h"
 #include "wizard-pages/qbl-desktop-wizard-page-newuser.h"
 #include "wizard-pages/qbl-desktop-wizard-page-chooseconfig.h"

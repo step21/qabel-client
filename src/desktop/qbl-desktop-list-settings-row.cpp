@@ -2,7 +2,7 @@
 #include "qbl-desktop-list-settings-row.h"
 #include "ui_qbl-desktop-list-row-config.h"
 
-QblDesktopListSettingsRow::QblDesktopListSettingsRow(string category_name,
+QblDesktopListSettingsRow::QblDesktopListSettingsRow(std::string category_name,
         int id,int category, QWidget *parent) :
         QWidget(parent),
         ui(new Ui::QblDesktopListSettingsRow), id(id),category(category)

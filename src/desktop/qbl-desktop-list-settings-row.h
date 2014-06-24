@@ -3,7 +3,7 @@
 
 #include <QWidget>
 
-#include "qbl-json-main-config-contact.h"
+#include "config/qbl-json-main-config-contact.h"
 
 #include "qbl-desktop-list-item.h"
 #include "qbl-client.h"
@@ -21,7 +21,7 @@ class QblDesktopListSettingsRow : public QWidget
     Q_OBJECT
 
 public:
-    explicit QblDesktopListSettingsRow(string category_name,
+    explicit QblDesktopListSettingsRow(std::string category_name,
             int id, int category, QWidget *parent = 0);
 
     ~QblDesktopListSettingsRow();
