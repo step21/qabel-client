@@ -5,7 +5,7 @@ Qabel client
 ## howto built
 
 ### First install all dependencies:
-`sudo apt-get install qt5-base-static qt5-default qt5-qmake qtmultimedia5-dev`libjson-c-dev
+`sudo apt-get install qt5-base-static qt5-default qt5-qmake qtmultimedia5-dev libjson-c-dev`
 
 ### Checkout the sources:
 ```
